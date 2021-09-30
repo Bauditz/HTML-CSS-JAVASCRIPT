@@ -1,0 +1,41 @@
+/*------------------------------------------Seletor de TAGs*-------------------------------------------*/
+
+body{
+background-color: #E8EAE6;
+}
+
+hr{
+border-style: dotted none none;
+width: 5%;
+border-color: gray;
+border-width: 5px;
+}
+
+h1{
+color: #E5707E
+}
+
+h3{
+color: #DF7861  
+}
+
+/*------------------------------------------------Fim------------------------------------------------*/
+
+
+/*-----------------------------------------Seletor de CLASSES----------------------------------------*/
+/*O seletor de classes sempre começa com . na frente do nome atribuido a classe em questão, como no exemplo
+.imglucas {-} = pode ser usado por vários elementos.
+*/
+
+.imglucas {
+
+background-color: none;
+
+}
+
+
+/*--------------------------------------------Seletor de IDs-----------------------------------------*/
+/*O seletor de IDs sempre começa com # na frente do nome atribuido ao ID em questão, como no exemplo
+#heading {-} = IDs sempre serão únicas, não pedendo ser usadas por mais de um elemento.
+*/
+
