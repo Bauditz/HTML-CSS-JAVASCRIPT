@@ -1,41 +1,257 @@
-/*------------------------------------------Seletor de TAGs*-------------------------------------------*/
-
 body{
-background-color: #E8EAE6;
+    background-color: none;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
 }
 
-hr{
-border-style: dotted none none;
-width: 5%;
-border-color: gray;
-border-width: 5px;
+.inicio{
+
+    background-color: #CDF0EA;
+    margin-top: 0;
+    position: relative;
+    padding-top: 300px;
+
 }
 
-h1{
-color: #E5707E
+.meio{
+
+  background-color: #DEEDF0;
+    
+}
+
+.fim{
+
+        background-color: #AEE1E1;
+        padding-bottom: 0%;
+        position: absolute;
+
+}
+
+.nuvemdecima{
+
+        position: absolute;
+        right: 250px;
+        top: 60px;
+
+}
+
+.nuvemdebaixo{
+
+        position: absolute;
+        top: 270px;
+        left: 300px;
+
+}
+
+.titulo{
+
+        position: absolute;
+        top: 70px;
+        right:400px;
+        font-family: 'Sacramento', cursive;
+        font-size: 90px;
+
+}
+
+.subtitulo{
+        position: absolute;
+        top: 220px;
+        right: 600px;
+        font-size: 20px;
+}
+
+h2{
+        font-family: 'Montserrat', sans-serif;
 }
 
 h3{
-color: #DF7861  
+        font-family: 'Montserrat', sans-serif;
 }
 
-/*------------------------------------------------Fim------------------------------------------------*/
+.HTML5{
 
-
-/*-----------------------------------------Seletor de CLASSES----------------------------------------*/
-/*O seletor de classes sempre começa com . na frente do nome atribuido a classe em questão, como no exemplo
-.imglucas {-} = pode ser usado por vários elementos.
-*/
-
-.imglucas {
-
-background-color: none;
+max-width: 20%;
+height: auto;
+float: left;
+margin-right: 30px;
 
 }
 
+.CSS3{
 
-/*--------------------------------------------Seletor de IDs-----------------------------------------*/
-/*O seletor de IDs sempre começa com # na frente do nome atribuido ao ID em questão, como no exemplo
-#heading {-} = IDs sempre serão únicas, não pedendo ser usadas por mais de um elemento.
-*/
+max-width: 20%;
+height: auto;
+float: right;
+margin-left: 30px;
 
+}
+
+.JS{
+
+max-width: 20%;
+height: auto;
+float: left;
+margin-right: 30px;
+
+}
+
+.skill-row{
+
+        width: 50%;
+        margin: 100px auto 100px auto;
+        text-align: justify;
+        line-height: 2;
+        
+        }
+
+.titulo-html{
+
+color: #79B4B7;
+
+}
+
+.titulo-css{
+
+color: #79B4B7;
+
+}
+
+.titulo-js{
+
+color: #79B4B7;
+
+}
+
+
+/* BOTÃO DE CONTATO \/ */
+
+button, button::after {
+
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        background: linear-gradient(45deg, transparent 5%, #F4D19B 5%);
+        border: 0;
+        color: #fff;
+        letter-spacing: 3px;
+        line-height: 50px;
+        box-shadow: 6px 0px 0px #00E6F6;
+        outline: transparent;
+        position: relative;
+      }
+      
+      button::after {
+        --slice-0: inset(50% 50% 50% 50%);
+        --slice-1: inset(80% -6px 0 0);
+        --slice-2: inset(50% -6px 30% 0);
+        --slice-3: inset(10% -6px 85% 0);
+        --slice-4: inset(40% -6px 43% 0);
+        --slice-5: inset(80% -6px 5% 0);
+        
+        content: 'ENTRE EM CONTATO';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #BFA2DB 5%);
+        text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+        clip-path: var(--slice-0);
+      }
+      
+      button:hover::after {
+        animation: 1s glitch;
+        animation-timing-function: steps(2, end);
+      }
+      
+      @keyframes glitch {
+        0% {
+          clip-path: var(--slice-1);
+          transform: translate(-20px, -10px);
+        }
+        10% {
+          clip-path: var(--slice-3);
+          transform: translate(10px, 10px);
+        }
+        20% {
+          clip-path: var(--slice-1);
+          transform: translate(-10px, 10px);
+        }
+        30% {
+          clip-path: var(--slice-3);
+          transform: translate(0px, 5px);
+        }
+        40% {
+          clip-path: var(--slice-2);
+          transform: translate(-5px, 0px);
+        }
+        50% {
+          clip-path: var(--slice-3);
+          transform: translate(5px, 0px);
+        }
+        60% {
+          clip-path: var(--slice-4);
+          transform: translate(5px, 10px);
+        }
+        70% {
+          clip-path: var(--slice-2);
+          transform: translate(-10px, 10px);
+        }
+        80% {
+          clip-path: var(--slice-5);
+          transform: translate(20px, -10px);
+        }
+        90% {
+          clip-path: var(--slice-1);
+          transform: translate(-10px, 0px);
+        }
+        100% {
+          clip-path: var(--slice-1);
+          transform: translate(0);
+        }
+      }
+
+/* BOTÃO DE CONTATO /\ */ 
+
+.botao-contato{
+
+        margin-bottom: 15px;
+
+}
+
+.github-img{
+
+max-width: 3%;
+margin-left: 30px;
+
+}
+
+.linkedin-img{
+
+max-width: 3%;
+
+}
+
+.facebook-img{
+
+max-width: 3%;
+margin-left: 30px;
+
+}
+
+a{
+
+text-decoration: none;
+
+}
+
+.copyright{
+
+color: #064420;
+font-size: 70%;
+
+}
